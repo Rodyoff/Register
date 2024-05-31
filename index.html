@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ma Page Web</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header-title">
+        <h1>Bienvenue dans mon application web</h1>
+    </header>
+    <div class="container">
+        <nav class="sidebar">
+            <ul>
+                <li><a href="#" data-target="home">Accueil</a></li>
+                <li><a href="#" data-target="exploitation">Mon exploitation</a></li>
+                <li><a href="#" data-target="mouvements">Mouvements</a></li>
+            </ul>
+        </nav>
+        <main>
+            <div id="home" class="content-section active">
+                <p>Ceci est le contenu de l'accueil.</p>
+                <div class="custom-select">
+                    <input type="text" class="select-input" placeholder="Choisissez une option">
+                    <div class="dropdown-content">
+                        <div class="scroll-container">
+                            <ul class="options-list">
+                                <li>AA 000 000 00000</li>
+                                <li>BB 111 111 11111</li>
+                                <li>CC 222 222 22222</li>
+                                <li>DD 333 333 33333</li>
+                                <li>EE 444 444 44444</li>
+                                <li>FF 555 555 55555</li>
+                                <li>GG 666 666 66666</li>
+                                <li>HH 777 777 77777</li>
+                                <li>II 888 888 88888</li>
+                                <li>JJ 999 999 99999</li>
+                                <li>KK 000 000 00000</li>
+                                <li>LL 111 111 11111</li>
+                                <li>MM 222 222 22222</li>
+                                <li>NN 333 333 33333</li>
+                                <li>OO 444 444 44444</li>
+                                <li>PP 555 555 55555</li>
+                                <li>QQ 666 666 66666</li>
+                                <li>RR 777 777 77777</li>
+                                <li>SS 888 888 88888</li>
+                                <li>TT 999 999 99999</li>
+                                <li>UU 000 000 00000</li>
+                                <li>VV 111 111 11111</li>
+                                <li>WW 222 222 22222</li>
+                                <li>XX 333 333 33333</li>
+                                <li>YY 444 444 44444</li>
+                                <li>ZZ 555 555 55555</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <button id="myButton">Cliquez-moi</button>
+            </div>
+            <div id="exploitation" class="content-section">
+    <h2>Mon Exploitation</h2>
+    <div class="exploitation-info">
+        <p><strong>Nom :</strong> Mon Exploitation</p>
+        <p><strong>Adresse :</strong> 123, Rue de l'Exploitation</p>
+        <p><strong>Numéro :</strong> 123456789</p>
+        <p><strong>Date de création :</strong> 01/01/2020</p>
+    </div>
+    <p>Ceci est le contenu de mon exploitation.</p>
+</div>
+
+            <div id="mouvements" class="content-section">
+                <p>Ceci est le contenu des mouvements.</p>
+            </div>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

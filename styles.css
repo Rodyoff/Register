@@ -1,0 +1,185 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f3f3f3;
+}
+
+.header-title {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+.container {
+    display: flex;
+    margin-top: 120px;
+}
+
+.sidebar {
+    width: 200px;
+    background-color: #333;
+    padding: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    height: calc(100vh - 140px);
+    position: fixed;
+    top: 120px;
+    left: 0;
+    overflow-y: auto;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin: 15px 0;
+}
+
+.sidebar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    display: block;
+    padding: 10px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.sidebar ul li a:hover {
+    background-color: #575757;
+}
+
+main {
+    margin-left: 220px;
+    padding: 20px;
+    background-color: #f3f3f3;
+    width: calc(100% - 240px);
+    height: calc(100vh - 140px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: auto;
+}
+
+.content-section {
+    display: none;
+}
+
+.content-section.active {
+    display: block;
+}
+
+.custom-select {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+    margin: 20px 0;
+}
+
+.select-input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: #fff;
+    transition: border-color 0.3s;
+}
+
+.select-input:focus {
+    border-color: #4CAF50;
+    outline: none;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-top: none;
+    border-radius: 0 0 4px 4px;
+    overflow-y: auto;
+    max-height: 200px;
+    z-index: 1;
+    width: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.options-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.options-list li {
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.options-list li:hover {
+    background-color: #f9f9f9;
+}
+
+.scroll-container {
+    overflow-y: auto;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Ajouter des styles pour Mon Exploitation */
+#exploitation {
+    padding: 20px;
+    position: fixed;
+    top: 120px; /* Ajustez la position verticale selon votre mise en page */
+    left: 220px; /* Ajustez la position horizontale selon votre mise en page */
+    width: calc(100% - 240px); /* Ajustez la largeur selon votre mise en page */
+    background-color: #f3f3f3;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: auto;
+
+}
+
+.exploitation-info {
+    background-color: #f2f2f2;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.exploitation-info p {
+    margin: 5px 0;
+}
+
+/* Ajuster le positionnement de la partie droite */
+main {
+    margin-left: 220px;
+    padding: 20px;
+    background-color: #f3f3f3;
+    width: calc(100% - 240px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: auto;
+}
+
+
+
